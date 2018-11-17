@@ -34,6 +34,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 # Image upload
 gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 
 
 # Front-end
