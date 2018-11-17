@@ -29,6 +29,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Secure secret keys
+gem 'dotenv-rails', groups: [:development, :test]
+
+# Image upload
+gem 'cloudinary'
+
 
 # Front-end
 gem 'bootstrap-sass'
